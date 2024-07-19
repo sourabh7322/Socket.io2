@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import socket from '../Socket';
+import './TaskForm.css'; 
 
 const TaskForm = () => {
   const [task, setTask] = useState({ title: '', status: 'Yet to Start' });

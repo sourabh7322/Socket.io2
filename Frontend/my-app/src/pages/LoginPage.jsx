@@ -3,6 +3,7 @@ import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Import the CSS for styling
+import './LoginPage.css';
 
 const LoginPage = () => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
